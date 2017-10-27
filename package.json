@@ -1,0 +1,21 @@
+{
+  "name": "homebridge-trigger",
+  "version": "0.0.1",
+  "description": "Homeridge Plugin for Automations Triggering",
+  "license": "Apache 2.0",
+  "keywords": [
+    "homebridge-plugin"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:neptunix/homebridge-trigger.git"
+  },
+  "bugs": {
+    "url": "https://github.com/neptunix/homebridge-trigger/issues"
+  },
+  "dependencies": { },
+  "engines": {
+    "node": ">=6.0",
+    "homebridge": ">=0.2.13"
+  }
+}
