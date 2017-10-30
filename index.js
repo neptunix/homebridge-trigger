@@ -13,9 +13,9 @@ module.exports = (homebridge) => {
 
 class FakeTrigger {
   constructor(log, config) {
-    this.log = log;
-    this.name = config.name;
-    this.interval = config.interval * 1000;
+    this.log = log
+    this.name = config.name
+    this.interval = config.interval < 60 ? 60000 : config.interval * 1000 // Lets not flood HomeKit
   
     this._sensor = new Service.ContactSensor(this.name)
     this._sensor.contactState = false

@@ -1,14 +1,20 @@
 {
   "name": "homebridge-trigger",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Homeridge Plugin for Automations Triggering",
   "license": "Apache 2.0",
+  "author": {
+    "name": "Dmitry Brigadirov"
+  },
   "keywords": [
-    "homebridge-plugin"
+    "automation",
+    "homebridge",
+    "homebridge-plugin",
+    "trigger"
   ],
   "repository": {
     "type": "git",
-    "url": "git@github.com:neptunix/homebridge-trigger.git"
+    "url": "git+https://github.com/neptunix/homebridge-trigger.git"
   },
   "bugs": {
     "url": "https://github.com/neptunix/homebridge-trigger/issues"
