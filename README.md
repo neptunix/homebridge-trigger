@@ -25,8 +25,10 @@ Install homebridge-trigger plugin and add accessories to your config.json `acces
 "accessories": [        
         {
           "accessory": "FakeTrigger",
-          "name": "Trigger every 30 sec",
-          "interval": 30
+          "name": "Trigger every 60 sec",
+          "interval": 60
         }
     ]
 ```
+
+Min interval value is set to 60 seconds in order not to flood HomeKit with too many requests
